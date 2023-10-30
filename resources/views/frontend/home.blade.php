@@ -9,9 +9,9 @@
         <!-- End Nav -->
         <!-- Start HomePage -->
         <main class="homePage row justify-content-center align-content-center">
-            <div class="textContent text-center w-100 py-1 col-md-6">
-                <h1 class="fw-bold"> دورة تطوير مواقع الويب رحلتك نحو إتقان البرمجة</h1>
-            </div>
+            <!-- <div class="textContent text-center w-100 py-1 col-md-6">
+                <h1 class="fw-bold"></h1>
+            </div> -->
             <div class="image homeImg col-md-6">
                 <img src="{{ asset('assets/frontend/images/homeimg.AVIF') }}" alt="homeimg" class="img-fluid">
             </div>
@@ -19,14 +19,12 @@
         <!-- End HomePage -->
         <!-- Start BuyNow Btn -->
         <div class="buyNow text-center">
-
-
             @isset($courses[0]->id)
                 <a href="{{ route('course.details', $courses[0]->id) }}"> <button class="btn main-btn fw-bold">اشتري الان
                     </button>
                 </a>
             @else
-                <a href="{{ route('home') }}"> <button class="btn main-btn fw-bold">اشتري الان
+                <a href="{{ route('home') }}"> <button class="btn main-btn fw-bold fs-5">اشتري الان
                     </button>
                 </a>
             @endisset
@@ -66,15 +64,11 @@
         <section class="whoUS row align-items-center" data-aos-delay="500">
             <div class="content col-md-6" data-aos="fade-left">
                 <div class="title">
-                    <h2 class="fw-bold">نبذة عن الكورس</h2>
+                    <h2 class="fw-bold">نبذة عن المنصة</h2>
                 </div>
-                <p class="py-3 lh-base fs-5">
-                    استعد لاكتشاف عالم تطوير مواقع الويب من خلال دورتنا المميزة. ستمنحك هذه الدورة الفرصة لاحتراف تصميم
-                    وبرمجه مواقع الويب . ستتعلم كيفية بناء واجهات مستخدم جذابة ومتجاوبة باستخدام HTML وCSS،
-                    وتجربة التفاعل باستخدام JavaScript، بالإضافة
-                    إلى إتقان تطوير الخلفيات وقواعد البيانات باستحدام لغة Php انضم إلينا اليوم واحصل على المهارات
-                    اللازمة لتكون مبرمج
-                    ويب متميزًا يمتلك القدرة على بناء تجارب رقمية شاملة ومبتكرة.</p>
+                <p class="py-3 lh-base fs-5"> إنها ليست مجرد منصة تعليمية بل هي بوابتك الشخصية لاكتساب المهارات التي تحتاجها للتألق في مجالات متنوعة، بدءًا من البرمجة وصولاً إلى التصميم والتسويق وغيرها.
+
+عندما تختار منصتنا، ستجد نفسك في رحلة تعلم فريدة وممتعة. نحن نقدم دورات تعليمية تم تطويرها بعناية لتناسب احتياجات الدارسين من جميع الخلفيات والمستويات. سواء كنت مبتدئًا تبحث عن تعلم مهارة جديدة أو محترفًا يرغب في تطوير معرفته، فإن لدينا الدورات المناسبة لك</p>
             </div>
             <div class="image col-md-6 mx-auto" data-aos="fade-right" data-aos-delay="500">
                 <img src="{{ asset('assets/frontend/images/img1.AVIF') }}" alt="image-1" class="rounded-2 course-image" />
@@ -187,7 +181,6 @@
                                         <img src="{{ $course->image }}" class="card-img" alt="PythonImg">
                                     </div>
                                     <div class="card-body ">
-
                                         <div class="cardContent">
                                             <h5 class="card-title fw-bold text-end ">{{ $course->name }}</h5>
                                             <p>{{ $course->descriptoin }}</p>
@@ -222,24 +215,14 @@
         <section class="mission my-5" id="ourTarget">
             <div class="missionText ">
                 <div class="title">
-                    <h2 class="fw-bold">اهدافنا </h2>
+                    <h2 class="fw-bold">اهدافنا</h2>
                 </div>
-                <p class="py-3 px-2 lh-base fs-5">هدفنا هي تمكين المتعلمين على موقع الدورات الخاص بنا بمجموعة شاملة من
-                    مهارات
-                    تطوير الويب. من خلال
-                    مناهجنا المصممة بعناية، نرشدك خلال لغات البرمجة الأساسية مثل HTML، CSS، وBootstrap، لضمان تمكنك من
-                    صناعة واجهات ويب جذابة ومتجاوبة. اغمر نفسك في عالم JavaScript لإضافة التفاعل والديناميكية إلى
-                    إبداعاتك.
+                <p class="py-3 px-2 lh-base fs-5">
+                    إن هدفنا الأسمى هو تمكينك ومساعدتك على تحقيق أهدافك المهنية. نؤمن بأن التعليم يجب أن يكون متاحًا للجميع، وهذا هو السبب في أننا نقدم دوراتنا بأسعار معقولة وبجودة عالية. نحن نركز على توفير تجربة تعليمية فريدة وشاملة تساعدك على التقدم في مسارك المهني.
+عندما تختار منصتنا، ستكون جزءًا من مجتمع تعليمي متحفز يشجع على التفاعل والتعلم المشترك. ستتعرف على أشخاص آخرين يشاركونك نفس الاهتمامات والأهداف، وستستفيد من خلال تبادل الخبرات والمعرفة.
 
-                    مع تقدمنا، تتوسع مهمتنا لتشمل إتقان قوة PHP، مما يمكّنك من بناء خلفيات قوية ووظائف ديناميكية . وليس
-                    هذا كلّ شيء – نسعى إلى الأمام مع ReactJS، لنزودك بالقدرات اللازمة لإبداع تجارب مستخدم حديثة وسلسة
-                    وفعّالة.
-
-                    انضم إلينا في هذه الرحلة التحويلية حيث نجعل من مهمتنا تزويدك بالمهارات الضرورية لتفوق في عالم تطوير
-                    الويب المتغير باستمرار نجاحك هو هدفنا النهائي.
-                    الدورة ستزوّد الطلاب بالمهارات والمعرفة التي تجعلهم قادرين بسهولة على العثور على فرص عمل فور
-                    انتهائهم منها، حيث سيكتسبون الخبرات العملية التي يبحث عنها أصحاب العمل في سوق العمل الحالي.
-                    </b>
+نحن نقدم دعمًا فعالًا للدارسين من خلال فريقنا المختص. سنقدم لكم المساعدة والتوجيه في كل مرحلة من مراحل رحلتك التعليمية. سواء كنت بحاجة إلى نصائح حول اختيار الدورات المناسبة أو مساعدة في حل المشكلات التي تواجهك أثناء التعلم، فإننا هنا لمساعدتك.
+                </b>
             </div>
         </section>
         <section class="contactUs" id="contactUs">
