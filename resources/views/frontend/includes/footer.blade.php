@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <h4 class="text-end fw-bold">الكورسات الحاليه</h4>
-                <ul class="text-end text-muted">
+                <!-- <ul class="text-end text-muted">
                     <li><b>Html</b></li>
                     <li><b>CSS-Bootstrap</b></li>
                     <li><b>JavaScript</b></li>
@@ -17,7 +17,7 @@
                     <li><b>Php</b></li>
                     <li><b>Python</b></li>
                     <li><b>How to work</b></li>
-                </ul>
+                </ul> -->
             </div>
             <div class="col-md-3 mb-4">
                 <h4 class="text-end fw-bold">وسائل الدفع المتاحه</h4>
@@ -33,9 +33,10 @@
                 <h4 class="text-end fw-bold">تواصل معنا</h4>
                 <div class="socialMedia text-end">
                     <div class="socialIcons mt-4 text-end">
-                        <a href="https://www.facebook.com/profile.php?id=100089926454391" target="_blank" class="ms-2" ><i class="fa-brands fa-facebook fs-3 text-black" ></i></a>
-                        <a href="https:/wa.me/+201220407108" class="ms-2" target="_blank"><i class="fa-brands fa-square-whatsapp fs-3" style="color:#25D366"></i></a>
-                        <a href="mailto:yossefadel713@gmail.com" target="_blank" class="ms-2"><i class="fa-solid fa-envelope fs-3 text-dark"></i></a>
+                        <!-- https://www.facebook.com/profile.php?id=100089926454391 -->
+                        <a href="" target="_blank" class="ms-2" ><i class="fa-brands fa-facebook fs-3 text-black" ></i></a>
+                        <!-- <a href="https:/wa.me/+201220407108" class="ms-2" target="_blank"><i class="fa-brands fa-square-whatsapp fs-3" style="color:#25D366"></i></a>
+                        <a href="mailto:yossefadel713@gmail.com" target="_blank" class="ms-2"><i class="fa-solid fa-envelope fs-3 text-dark"></i></a> -->
                     </div>
             </div>
         </div>
