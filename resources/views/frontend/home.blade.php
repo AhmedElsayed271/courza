@@ -79,90 +79,33 @@
             <div class="title">
                 <h2 class="fw-bold">خطط الدراسة</h2>
             </div>
-            <div class="cards row mt-5 gap-3 justify-content-center position-relative">
-                <div class="row mt-5 gap-3 justify-content-center ">
-                    <div class="card col-md-3 p-0 cardCourse border-0" data-aos="flip-left" data-aos-delay="500">
-                        <div class="images">
-                            <img src="{{ asset('assets/frontend/images/htmlCss.AVIF') }}" class="card-img" alt="HtmlCss">
-                        </div>
-                        <div class="card-body">
-                            <div class="cardContent d-flex justify-content-between ">
-                                <h5 class="card-title fw-bold text-start">Html-Css Course</h5>
-                            </div>
-                            <p class="card-text"> سوف تتعلم في هذه الدوره أساسيات تطوير الويب بأسلوب مبسّط ومحترف. اكتسب
-                                مهارات تصميم وبرمجة
-                                مواقع جذابة ومتجاوبة</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 p-0 cardCourse border-0" data-aos="flip-left" data-aos-delay="600">
-                        <div class="images">
-                            <img src="{{ asset('assets/frontend/images/JsCourse.AVIF') }}" class="card-img" alt="Js Image">
-                        </div>
-                        <div class="card-body">
-                            <div class="cardContent d-flex justify-content-between ">
-                                <h5 class="card-title fw-bold text-start">Java Script Course</h5>
-                            </div>
-                            <p class="card-text"> سوف تكتشف فنون تطوير الويب من الصفر إلى الاحتراف لبناء تجارب مستخدم
-                                مذهلة
-                                وديناميّة.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 p-0 cardCourse border-0" data-aos="flip-left" data-aos-delay="700">
-                        <div class="images">
-                            <img src="{{ asset('assets/frontend/images/ReactCourse.AVIF') }}" class="card-img"
-                                alt="ReactJSImage">
-                        </div>
-                        <div class="card-body">
-                            <div class="cardContent d-flex justify-content-between ">
-                                <h5 class="card-title fw-bold text-start">ReactJs Course</h5>
-                            </div>
-                            <p class="card-text"> ستكتشف عالم تطوير الواجهات الحديثة مع ReactJs,لبناء تطبيقات متفاعلة
-                                وقوية
-                                تتيح تجارب مستخدم استثنائية.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gap-3 justify-content-center">
-                    <div class="card col-md-3 p-0 cardCourse border-0" data-aos="flip-left" data-aos-delay="900">
-                        <div class="images">
-                            <img src="{{ asset('assets/frontend/images/bootstrapImg.AVIF') }}" class="card-img"
-                                alt="bootstrapImg">
-                        </div>
-                        <div class="card-body">
-                            <div class="cardContent d-flex justify-content-between ">
-                                <h5 class="card-title fw-bold text-start">Bootstrap Course</h5>
-                            </div>
-                            <p class="card-text">من خلال دراسة دورة Bootstrap، ستمكن نفسك من تطوير واجهات مستخدم متجاوبة
-                                وذات تصميم رائع، مما يعزز تجربة المستخدم عبر مختلف الأجهزة والشاشات.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 p-0 cardCourse border-0" data-aos="flip-left" data-aos-delay="1100">
-                        <div class="images">
-                            <img src="{{ asset('assets/frontend/images/phpImage.AVIF') }}" class="card-img"
-                                alt="phpImg">
-                        </div>
-                        <div class="card-body">
-                            <div class="cardContent d-flex justify-content-between ">
-                                <h5 class="card-title fw-bold text-start">Php Course</h5>
-                            </div>
-                            <p class="card-text">من خلال دراسة دورة PHP، ستكتسب المعرفة والمهارات اللازمة لتطوير تطبيقات
-                                مبتكرة ومتطورة، والتفاعل مع قواعد البيانات لتخزين واسترجاع المعلومات بكفاءة.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 p-0 cardCourse border-0" data-aos="flip-left" data-aos-delay="1300">
-                        <div class="images">
-                            <img src="{{ asset('assets/frontend/images/PythonImg.AVIF') }}" class="card-img"
-                                alt="PythonImg">
-                        </div>
-                        <div class="card-body">
-                            <div class="cardContent d-flex justify-content-between ">
-                                <h5 class="card-title fw-bold text-start">Python Course</h5>
-                            </div>
-                            <p class="card-text"> سيتمكن الطلاب من تطبيق مفاهيم Python بشكل عملي، مما يمكّنهم من تطوير
-                                تطبيقات وحلول برمجية إبداعية تلبي احتياجات السوق .</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="bg-white p-4 rounded">
+    <h2 class="main-color ">أطلق إمكانياتك مع دوراتنا الرائعة</h2>
+
+    <p class="fs-5 py-2 lh-lg">مرحبًا بك في موقع الويب الخاص بك، حيث يلتقي المعرفة بالتحول! تم تصميم دوراتنا بعناية لتمكينك، سواء كنت محترفًا متمرسًا يبحث عن تحسين مهاراته أو متعلمًا فضوليًا يتطلع لاستكشاف آفاق جديدة.</p>
+
+    <h3 class="main-color">الميزات الرئيسية:</h3>
+    <ul class="list-unstyled">
+        <li class="fs-5 lh-lg">محتوى يقوده الخبراء: تعلم من خبراء الصناعة الذين يجلبون الخبرة في العالم الحقيقي إلى الفصل الدراسي الافتراضي.</li>
+        <li class="fs-5 lh-lg">تعلم تفاعلي: تجمع دوراتنا بين النظرية والتمارين العملية والاختبارات والمناقشات للمحافظة على انخراطك طوال رحلة التعلم.</li>
+        <li class="fs-5 lh-lg">جدول زمني مرن: الحياة مشغولة، ونحن نفهم ذلك. تم تصميم دوراتنا لتناسب جدولك الزمني، مما يتيح لك التعلم بالخطوة الخاصة بك.</li>
+        <li class="fs-5 lh-lg">وصول مدى الحياة: بمجرد التسجيل، تحصل على وصول مدى الحياة إلى المواد الدراسية والتحديثات، مما يضمن بقاء معرفتك حديثة.</li>
+    </ul>
+
+    <h3 class="main-color">ما يميزنا:</h3>
+    <ul class="list-unstyled">
+        <li class="fs-5 lh-lg ">محتوى عالي الجودة: تم ترتيب دوراتنا بعناية فائقة لتوفير أحدث وأكثر المعلومات أهمية وتحديثًا في مجال اهتمامك.</li>
+        <li class="fs-5 lh-lg ">دعم المجتمع: انضم إلى مجتمع نشط من المتعلمين، حيث يمكنك تبادل الأفكار وطرح الأسئلة وبناء اتصالات مع أفراد ذوي أفكار مماثلة.</li>
+        <li class="fs-5 lh-lg ">نتائج مثبتة: خرج خريجونا لتحقيق نجاح كبير في مساراتهم المهنية. تحقق من قصص النجاح لدينا وانظر كيف قد أحدثت دوراتنا فارقًا.</li>
+    </ul>
+
+    <h3 class="main-color">تصفح دوراتنا:</h3>
+    <p class="fs-5">استكشف مجموعتنا المتنوعة من الدورات التي تلبي مستويات واهتمامات مهارية مختلفة. سواء كنت مهتمًا بالتكنولوجيا أو الأعمال أو الفنون الإبداعية أو التطوير الشخصي، لدينا شيء للجميع.</p>
+
+
+    <p class="fs-5">هل أنت جاهز لاتخاذ الخطوة التالية؟ تصفح دوراتنا وابدأ في مغامرة التعلم مع موقع الويب الخاص بك!</p>
+</div>
+
         </section>
         <!-- End study Section -->
         <!-- Start courses Section -->
