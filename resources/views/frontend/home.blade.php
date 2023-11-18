@@ -76,9 +76,6 @@
         </section>
         <!-- study Section -->
         <section class="studyPlan my-5 mx-1">
-            <div class="title">
-                <h2 class="fw-bold">خطط الدراسة</h2>
-            </div>
             <div class="bg-white p-4 rounded">
     <h2 class="main-color ">أطلق إمكانياتك مع دوراتنا الرائعة</h2>
 
